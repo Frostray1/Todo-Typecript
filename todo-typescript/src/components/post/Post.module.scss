@@ -1,0 +1,22 @@
+.postContainer {
+	display: flex;
+	width: 50%;
+	border: 1px solid black;
+	align-items: center;
+	margin: 1em auto;
+	text-align: start;
+	padding: 1em;
+	border-radius: 10px;
+	background: #f2feff;
+
+	img {
+		margin-left: auto;
+		width: 20px;
+		height: 20px;
+		cursor: pointer;
+		transition: background 0.2s ease-in-out;
+		&:hover {
+			background: red;
+		}
+	}
+}
